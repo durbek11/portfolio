@@ -1,29 +1,9 @@
-<!DOCTYPE html>
 {% load static %}
-<html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Base - {% block title %}{% endblock title %}</title>
-    <!--font-family-->
-    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i"
-        rel="stylesheet">
-
-</head>
-
-<body>
-
-        {% include 'includes/navigation.html' %}
-            {% block content %}
-                
-            {% endblock content %}
-        {% include 'includes/footer.html' %}
-
-
-
- 
-</body>
-
-</html>
+<header>
+    <nav class="navbar">
+        <div class="nav">
+            <img src="{% static 'images/photo_2023-03-04_20-42-31-removebg-prewiev (1).png' %}" class="logo" alt="logo" /></a>
+        </div>
+    </nav>
+</header>
